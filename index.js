@@ -1,8 +1,8 @@
 let _fs
 try {
-  _fs = require('graceful-fs')
+  _fs = require('sektch-graceful-fs')
 } catch (_) {
-  _fs = require('fs')
+  _fs = require('@skpm/fs')
 }
 const universalify = require('universalify')
 
