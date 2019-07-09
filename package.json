@@ -17,11 +17,10 @@
   "author": "JP Richardson <jprichardson@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "sketch-graceful-fs": "^1.0.1",
     "universalify": "^0.1.2"
   },
-  "optionalDependencies": {
-    "graceful-fs": "^4.1.6"
-  },
+  "optionalDependencies": {},
   "devDependencies": {
     "mocha": "^5.2.0",
     "rimraf": "^2.4.0",
