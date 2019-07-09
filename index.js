@@ -1,6 +1,6 @@
 let _fs
 try {
-  _fs = require('sektch-graceful-fs')
+  _fs = require('sketch-graceful-fs')
 } catch (_) {
   _fs = require('@skpm/fs')
 }
